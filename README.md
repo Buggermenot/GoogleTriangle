@@ -16,7 +16,7 @@ Jump to: [Index](#index), [Solution](#solution)
 
 ## Solution
 Jump to: [Index](#index), [Actual Solution](#2-final-solution)
-### 1. Initial attempt - Through finding all internal angles
+### 1. Initial attempt - Through finding all internal angles [(Contradiction)](#contradiction-case)
 ![Internal angles](all_angles.png)
 The annotation within the found angles (numbered 1-5) are the order in which they are calculated
 1. Sum of internal angles in triangle = ```180°```.
@@ -50,6 +50,8 @@ There are multiple ways to show multiple possible contradictions for any invalid
 - However, knowing that a triangle can be scaled easily by maintaining the angles means that a relative scale must be used to find sides in the triangles. Using ratio and relative distances, we can use them to then find the value of x.
 - ```Sine Rule``` may be used to establish relation between sides and angles.
 
-```latex
-$a \ne $b
+##### **Sine Rule →** ${a \over \sin A} = {b \over \sin B} = {c \over \sin C}$
+
+```math
+x = {-b \pm \sqrt{b^2-4ac} \over 2a} 
 ```
