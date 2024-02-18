@@ -49,3 +49,7 @@ There are multiple ways to show multiple possible contradictions for any invalid
 - The [first solution](#1-initial-attempt---through-finding-all-internal-angles) shows that the solution for the value of $x cannot be found simply by angles and sides of the triangle must be considered.
 - However, knowing that a triangle can be scaled easily by maintaining the angles means that a relative scale must be used to find sides in the triangles. Using ratio and relative distances, we can use them to then find the value of x.
 - ```Sine Rule``` may be used to establish relation between sides and angles.
+
+```latex
+$a \ne $b
+```
