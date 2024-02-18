@@ -50,8 +50,17 @@ There are multiple ways to show multiple possible contradictions for any invalid
 - However, knowing that a triangle can be scaled easily by maintaining the angles means that a relative scale must be used to find sides in the triangles. Using ratio and relative distances, we can use them to then find the value of x.
 - ```Sine Rule``` may be used to establish relation between sides and angles.
 
-##### **Sine Rule →** ${a \over \sin A} = {b \over \sin B} = {c \over \sin C}$
+##### **Sine Rule**
+```math
+{a \over \sin A} = {b \over \sin B} = {c \over \sin C}$
+```
+
+- We can then say:
+
+$Calculating FD and FE$
+
 
 ```math
-x = {-b \pm \sqrt{b^2-4ac} \over 2a} 
+{FD \over \sin x} = {FE \over \sin 70°}
+⇒ \sin x = {FD \over FE} \times \sin 70°
 ```
