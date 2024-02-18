@@ -50,17 +50,38 @@ There are multiple ways to show multiple possible contradictions for any invalid
 - However, knowing that a triangle can be scaled easily by maintaining the angles means that a relative scale must be used to find sides in the triangles. Using ratio and relative distances, we can use them to then find the value of x.
 - ```Sine Rule``` may be used to establish relation between sides and angles.
 
-##### **Sine Rule**
+**Sine Rule**
+
 ```math
 {a \over \sin A} = {b \over \sin B} = {c \over \sin C}$
 ```
-
-- We can then say:
-
-$Calculating FD and FE$
-
+Applying sine rule:
+```math
+\displaylines{{FD \over \sin x} = {FE \over \sin 70°} \\ ⇒ \sin x = {FD \over FE} \times \sin 70°}
+```
+#### **Calculating FD**
 
 ```math
-{FD \over \sin x} = {FE \over \sin 70°}
-⇒ \sin x = {FD \over FE} \times \sin 70°
+\displaylines{{FD \over \sin 20°} = {BF \over \sin 110°} \\ BF = BC}
 ```
+Therefore,
+
+```math
+{FD} = {{BC \times \sin 20°} \over \sin 110°}
+```
+$ $
+
+#### **Calculating FE**
+**Cosine Rule**
+```math
+{c^2} = {a^2 + b^2 - 2ab \cos C}
+```
+
+Applying cosine rule
+```math
+\displaylines{{FE^2} = {AF^2 + AE^2 - 2 \cos A \times (AF \times AE)}}
+```
+
+
+
+$$
